@@ -67,10 +67,10 @@ def run_bot(data_account, recover=1):
     try:
 
         nama_modif = kw.replace(" ", "-")
-        gmail = f"unlock-apks-{random_string(6)}@gmail.com"
-        slug = f"miror-apk-{random_string(6)}"
-        judul = f"*!DOWNLOAD!* {kw} MOD Premium APK Download Latest Version Free for Android"
-        link = f"https://apps.freeplayer.one/?title= CLICK HERE >> {kw}?ref=4D"
+        gmail = f"apps-apks-{random_string(6)}@gmail.com"
+        slug = f"{kw}-apps-android"
+        judul = f"{kw} MOD APK [VIP Unlocked, Full Premium] For Android"
+        link = f"https://apps.freeplayer.one/?title= CLICK HERE >> {kw}?ref=*9D"
 
         driver.get("https://bento.me/signup?ref=techcrunch&app=wetransferflow&atb=true")
         time.sleep(3)
