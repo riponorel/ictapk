@@ -67,9 +67,9 @@ def run_bot(data_account, recover=1):
     try:
 
         nama_modif = kw.replace(" ", "-")
-        gmail = f"app-download-{random_string(6)}@gmail.com"
-        slug = f"{kw}-free-download"
-        judul = f"{kw} Free Download"
+        gmail = f"{kw}-afaz@gmail.com"
+        slug = f"{kw}-free-download-new"
+        judul = f"{kw} Free Download new"
         link = f"https://apps.freeplayer.one/?title= CLICK HERE >> {kw}?ref=*14y-D"
 
         driver.get("https://bento.me/signup?ref=techcrunch&app=wetransferflow&atb=true")
