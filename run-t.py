@@ -67,10 +67,10 @@ def run_bot(data_account, recover=1):
     try:
 
         nama_modif = kw.replace(" ", "-")
-        gmail = f"apps-apks-{random_string(6)}@gmail.com"
-        slug = f"{kw}-apps-android"
-        judul = f"{kw} MOD APK [VIP Unlocked, Full Premium] For Android"
-        link = f"https://apps.freeplayer.one/?title= CLICK HERE >> {kw}?ref=*9D"
+        gmail = f"app-download-{random_string(6)}@gmail.com"
+        slug = f"{kw}-free-download"
+        judul = f"{kw} Free Download"
+        link = f"https://apps.freeplayer.one/?title= CLICK HERE >> {kw}?ref=*14y-D"
 
         driver.get("https://bento.me/signup?ref=techcrunch&app=wetransferflow&atb=true")
         time.sleep(3)
@@ -125,7 +125,7 @@ def run_bot(data_account, recover=1):
         print(driver.current_url)
         
         try:
-            konten = f'{kw} MOD APK lets you do more with your life effortlessly By freely installing the latest version of the chat GPT AI APK on your Android device \n'
+            konten = f'{kw} FREE DOWNLOAD \n'
             driver.find_element(
                 By.XPATH,
                 "/html/body/div[2]/div[1]/div/div/div[2]/div[2]/div/div/div",
